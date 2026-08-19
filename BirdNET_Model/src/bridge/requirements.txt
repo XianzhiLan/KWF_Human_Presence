@@ -1,0 +1,10 @@
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+numpy==1.26.4
+onnxruntime==1.27.0
+soundfile>=0.12
+scipy>=1.17          # app/audio.py::_resample -- required whenever input isn't already 48 kHz
+psutil>=5.9          # optional: enables peak_rss_mb; None without it, see schemas.py
+onnx>=1.22           # smoke_test.py only -- builds the synthetic stub model
+httpx>=0.27          # smoke_test.py (via fastapi.testclient), benchmark.py, verify_bridge_parity.py

@@ -6,9 +6,9 @@
 
 ---
 
-## Step 1 — Positive Clip Dataset
+## Step 1 — Download both Original and aug clips 
 
-A teammate ran audio-space augmentation (pitch shift, time stretch, Gaussian noise) on all positive clips. Each original clip produced ~40 augmented variants. All clips were downloaded from Google Drive and organized by device into a unified source directory.
+Jacky ran audio-space augmentation (pitch shift, time stretch, Gaussian noise) on all positive clips. Each original clip produced ~40 augmented variants.
 
 File naming convention:
 - Original: `Audio_Moth_1_20250318_171418.wav`

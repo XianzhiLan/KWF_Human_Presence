@@ -1,0 +1,28 @@
+{
+  "recorder": "Audio_Moth_4",
+  "clips_scored": 7358,
+  "date_coverage": "2025-03-17..2025-03-21 (5 dates)",
+  "seconds": 1223.3645652999403,
+  "detail_csv": "phase4_detail_Audio_Moth_4.csv",
+  "models": {
+    "fp32": {
+      "clips": 7358,
+      "allow_top1_n": 7358,
+      "allow_top1_pct": 100.0,
+      "raw_top1_n": 6324,
+      "raw_top1_pct": 85.94726827942375,
+      "conf_match_n": 7358,
+      "conf_match_pct": 100.0
+    },
+    "fp16": {
+      "clips": 7358,
+      "allow_top1_n": 7356,
+      "allow_top1_pct": 99.9728187007339,
+      "raw_top1_n": 6321,
+      "raw_top1_pct": 85.9064963305246,
+      "conf_match_n": 2905,
+      "conf_match_pct": 39.480837184017396
+    }
+  },
+  "det_sets_identical": 7307
+}

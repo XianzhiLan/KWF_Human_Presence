@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy to models.json and run. Paths are relative to src/bridge/, so this works from a fresh clone; use absolute paths if your models live elsewhere.",
+  "variants": {
+    "fp16_pruned493": {
+      "model":  "../../models/birdnet_fp16_pruned493.onnx",
+      "labels": "../../models/birdnet_fp16_pruned493.labels.txt",
+      "allow_list": "../../models/geomodel_allowlist_218.txt"
+    },
+    "fp32_pruned493": {
+      "model":  "../../models/birdnet_fp32_pruned493.onnx",
+      "labels": "../../models/birdnet_fp32_pruned493.labels.txt",
+      "allow_list": "../../models/geomodel_allowlist_218.txt"
+    }
+  }
+}

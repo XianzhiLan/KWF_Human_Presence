@@ -1,0 +1,4702 @@
+{
+  "generated": "2026-08-09 16:29:34",
+  "models": {
+    "fp32": "birdnet_fp32_pruned493.onnx",
+    "fp16": "birdnet_fp16_pruned493.onnx"
+  },
+  "labels": "birdnet_fp32_pruned493.labels.txt",
+  "classes": 493,
+  "allowlist_size": 218,
+  "conf_tol": 0.001,
+  "threads": {
+    "intra_op": 1,
+    "inter_op": 1
+  },
+  "scored_recorders": [
+    "Audio_Moth_6",
+    "Audio_Moth_3",
+    "Audio_Moth_2",
+    "Audio_Moth_5",
+    "Audio_Moth_4",
+    "Audio_Moth_1"
+  ],
+  "excluded": [],
+  "per_recorder": {
+    "Audio_Moth_3": {
+      "recorder": "Audio_Moth_3",
+      "clips_scored": 1208,
+      "date_coverage": "2025-03-19..2025-03-20 (2 dates)",
+      "seconds": 216.86124860006385,
+      "detail_csv": "phase4_detail_Audio_Moth_3.csv",
+      "models": {
+        "fp32": {
+          "clips": 1208,
+          "allow_top1_n": 1208,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 1208,
+          "raw_top1_pct": 100.0,
+          "conf_match_n": 1208,
+          "conf_match_pct": 100.0
+        },
+        "fp16": {
+          "clips": 1208,
+          "allow_top1_n": 1208,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 1208,
+          "raw_top1_pct": 100.0,
+          "conf_match_n": 564,
+          "conf_match_pct": 46.688741721854306
+        }
+      },
+      "det_sets_identical": 1204
+    },
+    "Audio_Moth_5": {
+      "recorder": "Audio_Moth_5",
+      "clips_scored": 3500,
+      "date_coverage": "2025-03-19..2025-03-20 (2 dates)",
+      "seconds": 533.0174325000262,
+      "detail_csv": "phase4_detail_Audio_Moth_5.csv",
+      "models": {
+        "fp32": {
+          "clips": 3500,
+          "allow_top1_n": 3500,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 3234,
+          "raw_top1_pct": 92.4,
+          "conf_match_n": 3500,
+          "conf_match_pct": 100.0
+        },
+        "fp16": {
+          "clips": 3500,
+          "allow_top1_n": 3491,
+          "allow_top1_pct": 99.74285714285715,
+          "raw_top1_n": 3233,
+          "raw_top1_pct": 92.37142857142857,
+          "conf_match_n": 946,
+          "conf_match_pct": 27.02857142857143
+        }
+      },
+      "det_sets_identical": 3439
+    },
+    "Audio_Moth_6": {
+      "recorder": "Audio_Moth_6",
+      "clips_scored": 709,
+      "date_coverage": "2025-03-21 (single date)",
+      "seconds": 106.22204389993567,
+      "detail_csv": "phase4_detail_Audio_Moth_6.csv",
+      "models": {
+        "fp32": {
+          "clips": 709,
+          "allow_top1_n": 709,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 709,
+          "raw_top1_pct": 100.0,
+          "conf_match_n": 709,
+          "conf_match_pct": 100.0
+        },
+        "fp16": {
+          "clips": 709,
+          "allow_top1_n": 709,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 709,
+          "raw_top1_pct": 100.0,
+          "conf_match_n": 262,
+          "conf_match_pct": 36.95345557122708
+        }
+      },
+      "det_sets_identical": 707
+    },
+    "Audio_Moth_2": {
+      "recorder": "Audio_Moth_2",
+      "clips_scored": 2026,
+      "date_coverage": "2025-03-17 (single date)",
+      "seconds": 395.0516233999515,
+      "detail_csv": "phase4_detail_Audio_Moth_2.csv",
+      "models": {
+        "fp32": {
+          "clips": 2026,
+          "allow_top1_n": 2026,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 2024,
+          "raw_top1_pct": 99.90128331688055,
+          "conf_match_n": 2026,
+          "conf_match_pct": 100.0
+        },
+        "fp16": {
+          "clips": 2026,
+          "allow_top1_n": 2025,
+          "allow_top1_pct": 99.95064165844028,
+          "raw_top1_n": 2023,
+          "raw_top1_pct": 99.85192497532083,
+          "conf_match_n": 1238,
+          "conf_match_pct": 61.10562685093781
+        }
+      },
+      "det_sets_identical": 2019
+    },
+    "Audio_Moth_4": {
+      "recorder": "Audio_Moth_4",
+      "clips_scored": 7358,
+      "date_coverage": "2025-03-17..2025-03-21 (5 dates)",
+      "seconds": 1223.3645652999403,
+      "detail_csv": "phase4_detail_Audio_Moth_4.csv",
+      "models": {
+        "fp32": {
+          "clips": 7358,
+          "allow_top1_n": 7358,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 6324,
+          "raw_top1_pct": 85.94726827942375,
+          "conf_match_n": 7358,
+          "conf_match_pct": 100.0
+        },
+        "fp16": {
+          "clips": 7358,
+          "allow_top1_n": 7356,
+          "allow_top1_pct": 99.9728187007339,
+          "raw_top1_n": 6321,
+          "raw_top1_pct": 85.9064963305246,
+          "conf_match_n": 2905,
+          "conf_match_pct": 39.480837184017396
+        }
+      },
+      "det_sets_identical": 7307
+    },
+    "Audio_Moth_1": {
+      "recorder": "Audio_Moth_1",
+      "clips_scored": 36919,
+      "date_coverage": "2025-03-17..2025-03-20 (4 dates)",
+      "seconds": 5166.445043799933,
+      "detail_csv": "phase4_detail_Audio_Moth_1.csv",
+      "models": {
+        "fp32": {
+          "clips": 36919,
+          "allow_top1_n": 36919,
+          "allow_top1_pct": 100.0,
+          "raw_top1_n": 36365,
+          "raw_top1_pct": 98.49941764403152,
+          "conf_match_n": 36919,
+          "conf_match_pct": 100.0
+        },
+        "fp16": {
+          "clips": 36919,
+          "allow_top1_n": 36865,
+          "allow_top1_pct": 99.85373384977925,
+          "raw_top1_n": 36321,
+          "raw_top1_pct": 98.38023781792573,
+          "conf_match_n": 13481,
+          "conf_match_pct": 36.51507353936997
+        }
+      },
+      "det_sets_identical": 36552
+    }
+  },
+  "totals": {
+    "fp32": {
+      "clips": 51720,
+      "allow_top1_pct": 100.0,
+      "conf_match_pct": 100.0,
+      "raw_top1_pct": 96.41144624903326
+    },
+    "fp16": {
+      "clips": 51720,
+      "allow_top1_pct": 99.8723897911833,
+      "conf_match_pct": 37.50193348801238,
+      "raw_top1_pct": 96.31670533642692
+    }
+  },
+  "stage5": {
+    "threshold": 0.25,
+    "clips_compared": 51720,
+    "identical_sets": 51228,
+    "differing_clips": 492,
+    "differences": [
+      {
+        "clip": "Audio_Moth_6_20250321_123520.wav",
+        "species": "Chlorestes eliciae_Blue-throated Goldentail",
+        "fp32_conf": 0.2505418062210083,
+        "fp16_conf": 0.24872760474681854,
+        "delta_fp16_minus_fp32": -0.0018142014741897583,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_6_20250321_125632.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.2504613995552063,
+        "fp16_conf": 0.24693886935710907,
+        "delta_fp16_minus_fp32": -0.003522530198097229,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_111800.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2504545748233795,
+        "fp16_conf": 0.24997153878211975,
+        "delta_fp16_minus_fp32": -0.0004830360412597656,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_121130.wav",
+        "species": "Malacoptila panamensis_White-whiskered Puffbird",
+        "fp32_conf": 0.2501975893974304,
+        "fp16_conf": 0.2491108924150467,
+        "delta_fp16_minus_fp32": -0.001086696982383728,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_121215.wav",
+        "species": "Leucopternis semiplumbeus_Semiplumbeous Hawk",
+        "fp32_conf": 0.25033241510391235,
+        "fp16_conf": 0.24873273074626923,
+        "delta_fp16_minus_fp32": -0.0015996843576431274,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_123212.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.25099679827690125,
+        "fp16_conf": 0.2498035728931427,
+        "delta_fp16_minus_fp32": -0.001193225383758545,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_130627.wav",
+        "species": "Ceratopipra mentalis_Red-capped Manakin",
+        "fp32_conf": 0.2515510320663452,
+        "fp16_conf": 0.24984881281852722,
+        "delta_fp16_minus_fp32": -0.0017022192478179932,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_152130.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.25339457392692566,
+        "fp16_conf": 0.24948835372924805,
+        "delta_fp16_minus_fp32": -0.0039062201976776123,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_2_20250317_162015.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.2521573305130005,
+        "fp16_conf": 0.2470652312040329,
+        "delta_fp16_minus_fp32": -0.00509209930896759,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250317_181714.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25396594405174255,
+        "fp16_conf": 0.24994589388370514,
+        "delta_fp16_minus_fp32": -0.0040200501680374146,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250317_215117.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25162187218666077,
+        "fp16_conf": 0.2481069713830948,
+        "delta_fp16_minus_fp32": -0.003514900803565979,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_052156.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.26595452427864075,
+        "fp16_conf": 0.21297091245651245,
+        "delta_fp16_minus_fp32": -0.052983611822128296,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_052220.wav",
+        "species": "Hylopezus perspicillatus_Streak-chested Antpitta",
+        "fp32_conf": 0.25319334864616394,
+        "fp16_conf": 0.2482205033302307,
+        "delta_fp16_minus_fp32": -0.0049728453159332275,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_063710.wav",
+        "species": "Cantorchilus semibadius_Riverside Wren",
+        "fp32_conf": 0.24944254755973816,
+        "fp16_conf": 0.25045549869537354,
+        "delta_fp16_minus_fp32": 0.001012951135635376,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_064540.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.25037577748298645,
+        "fp16_conf": 0.24574996531009674,
+        "delta_fp16_minus_fp32": -0.0046258121728897095,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_115640.wav",
+        "species": "Mionectes olivaceus_Olive-striped Flycatcher",
+        "fp32_conf": 0.2503100335597992,
+        "fp16_conf": 0.24858419597148895,
+        "delta_fp16_minus_fp32": -0.0017258375883102417,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_174949.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2620507478713989,
+        "fp16_conf": 0.24911633133888245,
+        "delta_fp16_minus_fp32": -0.01293441653251648,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_184033.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2506958842277527,
+        "fp16_conf": 0.24932751059532166,
+        "delta_fp16_minus_fp32": -0.0013683736324310303,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_184906.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2521674335002899,
+        "fp16_conf": 0.24953912198543549,
+        "delta_fp16_minus_fp32": -0.002628311514854431,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_190509.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.249306783080101,
+        "fp16_conf": 0.2501843571662903,
+        "delta_fp16_minus_fp32": 0.00087757408618927,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_190906.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24961373209953308,
+        "fp16_conf": 0.25734296441078186,
+        "delta_fp16_minus_fp32": 0.007729232311248779,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_191309.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25003278255462646,
+        "fp16_conf": 0.24964098632335663,
+        "delta_fp16_minus_fp32": -0.0003917962312698364,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_192733.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24889470636844635,
+        "fp16_conf": 0.2529471218585968,
+        "delta_fp16_minus_fp32": 0.004052415490150452,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_193245.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2503114640712738,
+        "fp16_conf": 0.2438567578792572,
+        "delta_fp16_minus_fp32": -0.0064547061920166016,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_195218.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25290945172309875,
+        "fp16_conf": 0.2490670531988144,
+        "delta_fp16_minus_fp32": -0.003842398524284363,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_195739.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2511122524738312,
+        "fp16_conf": 0.24756993353366852,
+        "delta_fp16_minus_fp32": -0.0035423189401626587,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_200921.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2508847117424011,
+        "fp16_conf": 0.2479538470506668,
+        "delta_fp16_minus_fp32": -0.002930864691734314,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_201403.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25127464532852173,
+        "fp16_conf": 0.2490641474723816,
+        "delta_fp16_minus_fp32": -0.0022104978561401367,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_214112.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25300177931785583,
+        "fp16_conf": 0.2477319985628128,
+        "delta_fp16_minus_fp32": -0.00526978075504303,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_214509.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2499302178621292,
+        "fp16_conf": 0.2501670718193054,
+        "delta_fp16_minus_fp32": 0.0002368539571762085,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_215303.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25030994415283203,
+        "fp16_conf": 0.24925822019577026,
+        "delta_fp16_minus_fp32": -0.0010517239570617676,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250318_224118.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25102999806404114,
+        "fp16_conf": 0.24913232028484344,
+        "delta_fp16_minus_fp32": -0.0018976777791976929,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_010518.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25113025307655334,
+        "fp16_conf": 0.24869529902935028,
+        "delta_fp16_minus_fp32": -0.002434954047203064,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_051730.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2518979609012604,
+        "fp16_conf": 0.2397003173828125,
+        "delta_fp16_minus_fp32": -0.012197643518447876,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_053203.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2501927316188812,
+        "fp16_conf": 0.24697774648666382,
+        "delta_fp16_minus_fp32": -0.0032149851322174072,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_053357.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2475433647632599,
+        "fp16_conf": 0.2506650388240814,
+        "delta_fp16_minus_fp32": 0.003121674060821533,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_081109.wav",
+        "species": "Lepidothrix coronata_Blue-crowned Manakin",
+        "fp32_conf": 0.2504304349422455,
+        "fp16_conf": 0.2493523508310318,
+        "delta_fp16_minus_fp32": -0.001078084111213684,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_105433.wav",
+        "species": "Microcerculus marginatus_Scaly-breasted Wren",
+        "fp32_conf": 0.25166478753089905,
+        "fp16_conf": 0.24913853406906128,
+        "delta_fp16_minus_fp32": -0.0025262534618377686,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_191640.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24936912953853607,
+        "fp16_conf": 0.25011858344078064,
+        "delta_fp16_minus_fp32": 0.0007494539022445679,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_193522.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24915404617786407,
+        "fp16_conf": 0.2515321671962738,
+        "delta_fp16_minus_fp32": 0.002378121018409729,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_202707.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25113576650619507,
+        "fp16_conf": 0.24819929897785187,
+        "delta_fp16_minus_fp32": -0.0029364675283432007,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250319_204143.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2509128153324127,
+        "fp16_conf": 0.24499645829200745,
+        "delta_fp16_minus_fp32": -0.0059163570404052734,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_041016.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2514874339103699,
+        "fp16_conf": 0.24718625843524933,
+        "delta_fp16_minus_fp32": -0.004301175475120544,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_055319.wav",
+        "species": "Arremon aurantiirostris_Orange-billed Sparrow",
+        "fp32_conf": 0.2528926134109497,
+        "fp16_conf": 0.24912616610527039,
+        "delta_fp16_minus_fp32": -0.0037664473056793213,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_060640.wav",
+        "species": "Arremon aurantiirostris_Orange-billed Sparrow",
+        "fp32_conf": 0.25402939319610596,
+        "fp16_conf": 0.24992358684539795,
+        "delta_fp16_minus_fp32": -0.004105806350708008,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_074207.wav",
+        "species": "Geotrygon montana_Ruddy Quail-Dove",
+        "fp32_conf": 0.2519685924053192,
+        "fp16_conf": 0.24784167110919952,
+        "delta_fp16_minus_fp32": -0.00412692129611969,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_103255.wav",
+        "species": "Lipaugus unirufus_Rufous Piha",
+        "fp32_conf": 0.24914315342903137,
+        "fp16_conf": 0.2506583034992218,
+        "delta_fp16_minus_fp32": 0.0015151500701904297,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_174740.wav",
+        "species": "Ramphastos ambiguus_Yellow-throated Toucan",
+        "fp32_conf": 0.2508230209350586,
+        "fp16_conf": 0.24529600143432617,
+        "delta_fp16_minus_fp32": -0.005527019500732422,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_193527.wav",
+        "species": "Arremon aurantiirostris_Orange-billed Sparrow",
+        "fp32_conf": 0.25223594903945923,
+        "fp16_conf": 0.2484409362077713,
+        "delta_fp16_minus_fp32": -0.0037950128316879272,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_194354.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24928897619247437,
+        "fp16_conf": 0.25179043412208557,
+        "delta_fp16_minus_fp32": 0.002501457929611206,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_203542.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25012508034706116,
+        "fp16_conf": 0.24972862005233765,
+        "delta_fp16_minus_fp32": -0.00039646029472351074,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_211142.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25077003240585327,
+        "fp16_conf": 0.24913418292999268,
+        "delta_fp16_minus_fp32": -0.0016358494758605957,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_213109.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24824172258377075,
+        "fp16_conf": 0.2506486773490906,
+        "delta_fp16_minus_fp32": 0.0024069547653198242,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_213415.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25064197182655334,
+        "fp16_conf": 0.24908693134784698,
+        "delta_fp16_minus_fp32": -0.0015550404787063599,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_214242.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2501122057437897,
+        "fp16_conf": 0.24950982630252838,
+        "delta_fp16_minus_fp32": -0.0006023794412612915,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250320_221815.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25056764483451843,
+        "fp16_conf": 0.24962012469768524,
+        "delta_fp16_minus_fp32": -0.0009475201368331909,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250321_052118.wav",
+        "species": "Stilpnia larvata_Golden-hooded Tanager",
+        "fp32_conf": 0.25044986605644226,
+        "fp16_conf": 0.2440534234046936,
+        "delta_fp16_minus_fp32": -0.006396442651748657,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250321_060724.wav",
+        "species": "Cantorchilus semibadius_Riverside Wren",
+        "fp32_conf": 0.2530563473701477,
+        "fp16_conf": 0.2498447597026825,
+        "delta_fp16_minus_fp32": -0.00321158766746521,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250321_065145.wav",
+        "species": "Malacoptila panamensis_White-whiskered Puffbird",
+        "fp32_conf": 0.2506217360496521,
+        "fp16_conf": 0.23998987674713135,
+        "delta_fp16_minus_fp32": -0.010631859302520752,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_4_20250321_130200.wav",
+        "species": "Malacoptila panamensis_White-whiskered Puffbird",
+        "fp32_conf": 0.2540706992149353,
+        "fp16_conf": 0.24810169637203217,
+        "delta_fp16_minus_fp32": -0.005969002842903137,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_114709.wav",
+        "species": "Chlorophanes spiza_Green Honeycreeper",
+        "fp32_conf": 0.25107717514038086,
+        "fp16_conf": 0.24817973375320435,
+        "delta_fp16_minus_fp32": -0.0028974413871765137,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_135700.wav",
+        "species": "Ramphocaenus melanurus_Long-billed Gnatwren",
+        "fp32_conf": 0.2518705725669861,
+        "fp16_conf": 0.24948470294475555,
+        "delta_fp16_minus_fp32": -0.00238586962223053,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_140954.wav",
+        "species": "Ramphocaenus melanurus_Long-billed Gnatwren",
+        "fp32_conf": 0.2505607306957245,
+        "fp16_conf": 0.24848920106887817,
+        "delta_fp16_minus_fp32": -0.0020715296268463135,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_144321.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2529376447200775,
+        "fp16_conf": 0.24955452978610992,
+        "delta_fp16_minus_fp32": -0.0033831149339675903,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_163630.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.2509081959724426,
+        "fp16_conf": 0.2473677694797516,
+        "delta_fp16_minus_fp32": -0.00354042649269104,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_181342.wav",
+        "species": "Baryphthengus martii_Rufous Motmot",
+        "fp32_conf": 0.24688653647899628,
+        "fp16_conf": 0.2515016198158264,
+        "delta_fp16_minus_fp32": 0.004615083336830139,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_183627.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2507306933403015,
+        "fp16_conf": 0.24960675835609436,
+        "delta_fp16_minus_fp32": -0.0011239349842071533,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_184300.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25059714913368225,
+        "fp16_conf": 0.2489580661058426,
+        "delta_fp16_minus_fp32": -0.0016390830278396606,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_184803.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25056496262550354,
+        "fp16_conf": 0.24871565401554108,
+        "delta_fp16_minus_fp32": -0.0018493086099624634,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_191115.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24955470860004425,
+        "fp16_conf": 0.25041186809539795,
+        "delta_fp16_minus_fp32": 0.0008571594953536987,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_191157.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.249972403049469,
+        "fp16_conf": 0.2501392066478729,
+        "delta_fp16_minus_fp32": 0.00016680359840393066,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_192118.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24987423419952393,
+        "fp16_conf": 0.2505629062652588,
+        "delta_fp16_minus_fp32": 0.0006886720657348633,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_192136.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24970750510692596,
+        "fp16_conf": 0.25013381242752075,
+        "delta_fp16_minus_fp32": 0.0004263073205947876,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_192139.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24972426891326904,
+        "fp16_conf": 0.2516437768936157,
+        "delta_fp16_minus_fp32": 0.0019195079803466797,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_193957.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24813832342624664,
+        "fp16_conf": 0.2506101727485657,
+        "delta_fp16_minus_fp32": 0.0024718493223190308,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_194736.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2544669210910797,
+        "fp16_conf": 0.2496258020401001,
+        "delta_fp16_minus_fp32": -0.004841119050979614,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_202133.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24692769348621368,
+        "fp16_conf": 0.2505740821361542,
+        "delta_fp16_minus_fp32": 0.0036463886499404907,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_202300.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24991050362586975,
+        "fp16_conf": 0.251841276884079,
+        "delta_fp16_minus_fp32": 0.0019307732582092285,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_202424.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24723385274410248,
+        "fp16_conf": 0.25082921981811523,
+        "delta_fp16_minus_fp32": 0.0035953670740127563,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_204257.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2494816780090332,
+        "fp16_conf": 0.2509270906448364,
+        "delta_fp16_minus_fp32": 0.0014454126358032227,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_204321.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2564558684825897,
+        "fp16_conf": 0.2499508410692215,
+        "delta_fp16_minus_fp32": -0.006505027413368225,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_205200.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24953345954418182,
+        "fp16_conf": 0.251290887594223,
+        "delta_fp16_minus_fp32": 0.0017574280500411987,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_205406.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2516442835330963,
+        "fp16_conf": 0.2496468722820282,
+        "delta_fp16_minus_fp32": -0.0019974112510681152,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_210606.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2504819929599762,
+        "fp16_conf": 0.24630597233772278,
+        "delta_fp16_minus_fp32": -0.004176020622253418,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_211118.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24924518167972565,
+        "fp16_conf": 0.25221607089042664,
+        "delta_fp16_minus_fp32": 0.0029708892107009888,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_211648.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25148066878318787,
+        "fp16_conf": 0.2496795356273651,
+        "delta_fp16_minus_fp32": -0.001801133155822754,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_211918.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.252981960773468,
+        "fp16_conf": 0.2497711181640625,
+        "delta_fp16_minus_fp32": -0.0032108426094055176,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_212157.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25172919034957886,
+        "fp16_conf": 0.24949121475219727,
+        "delta_fp16_minus_fp32": -0.002237975597381592,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_212651.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2502535581588745,
+        "fp16_conf": 0.2487107515335083,
+        "delta_fp16_minus_fp32": -0.001542806625366211,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_213230.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2524357736110687,
+        "fp16_conf": 0.24817480146884918,
+        "delta_fp16_minus_fp32": -0.0042609721422195435,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_213600.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25030767917633057,
+        "fp16_conf": 0.24874816834926605,
+        "delta_fp16_minus_fp32": -0.0015595108270645142,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_213836.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24901972711086273,
+        "fp16_conf": 0.2511868178844452,
+        "delta_fp16_minus_fp32": 0.0021670907735824585,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_214627.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2521703541278839,
+        "fp16_conf": 0.2488483488559723,
+        "delta_fp16_minus_fp32": -0.003322005271911621,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_215000.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2517615556716919,
+        "fp16_conf": 0.2492261379957199,
+        "delta_fp16_minus_fp32": -0.002535417675971985,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_215003.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24605697393417358,
+        "fp16_conf": 0.25131821632385254,
+        "delta_fp16_minus_fp32": 0.005261242389678955,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_215457.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2524436414241791,
+        "fp16_conf": 0.24956409633159637,
+        "delta_fp16_minus_fp32": -0.0028795450925827026,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_215506.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.250753253698349,
+        "fp16_conf": 0.24939727783203125,
+        "delta_fp16_minus_fp32": -0.001355975866317749,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_215954.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2497091144323349,
+        "fp16_conf": 0.25397175550460815,
+        "delta_fp16_minus_fp32": 0.004262641072273254,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_215957.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2506607472896576,
+        "fp16_conf": 0.24803921580314636,
+        "delta_fp16_minus_fp32": -0.0026215314865112305,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_220248.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2541745901107788,
+        "fp16_conf": 0.2473059743642807,
+        "delta_fp16_minus_fp32": -0.006868615746498108,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_221648.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2489401251077652,
+        "fp16_conf": 0.25191396474838257,
+        "delta_fp16_minus_fp32": 0.0029738396406173706,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_221739.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.250027596950531,
+        "fp16_conf": 0.2491140216588974,
+        "delta_fp16_minus_fp32": -0.000913575291633606,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_222124.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2504545748233795,
+        "fp16_conf": 0.24917207658290863,
+        "delta_fp16_minus_fp32": -0.0012824982404708862,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_222215.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24716077744960785,
+        "fp16_conf": 0.25046306848526,
+        "delta_fp16_minus_fp32": 0.0033022910356521606,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_223227.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25100523233413696,
+        "fp16_conf": 0.2481774389743805,
+        "delta_fp16_minus_fp32": -0.0028277933597564697,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_223548.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25032415986061096,
+        "fp16_conf": 0.24824301898479462,
+        "delta_fp16_minus_fp32": -0.002081140875816345,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_223651.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24966421723365784,
+        "fp16_conf": 0.25167757272720337,
+        "delta_fp16_minus_fp32": 0.0020133554935455322,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_223812.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24796581268310547,
+        "fp16_conf": 0.250448614358902,
+        "delta_fp16_minus_fp32": 0.002482801675796509,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_223927.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2498178631067276,
+        "fp16_conf": 0.2501663863658905,
+        "delta_fp16_minus_fp32": 0.00034852325916290283,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_224139.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2509380578994751,
+        "fp16_conf": 0.24965794384479523,
+        "delta_fp16_minus_fp32": -0.0012801140546798706,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_224509.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2503926455974579,
+        "fp16_conf": 0.24651959538459778,
+        "delta_fp16_minus_fp32": -0.0038730502128601074,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_225657.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24613362550735474,
+        "fp16_conf": 0.25153058767318726,
+        "delta_fp16_minus_fp32": 0.0053969621658325195,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_225939.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2512359619140625,
+        "fp16_conf": 0.24763324856758118,
+        "delta_fp16_minus_fp32": -0.0036027133464813232,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_230333.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2498815953731537,
+        "fp16_conf": 0.2512337267398834,
+        "delta_fp16_minus_fp32": 0.0013521313667297363,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_230351.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2479875683784485,
+        "fp16_conf": 0.2527938187122345,
+        "delta_fp16_minus_fp32": 0.004806250333786011,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_230636.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24897059798240662,
+        "fp16_conf": 0.25159066915512085,
+        "delta_fp16_minus_fp32": 0.0026200711727142334,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_230927.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25034528970718384,
+        "fp16_conf": 0.24999955296516418,
+        "delta_fp16_minus_fp32": -0.0003457367420196533,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_230954.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2507458031177521,
+        "fp16_conf": 0.24772460758686066,
+        "delta_fp16_minus_fp32": -0.0030211955308914185,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_231227.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2478577345609665,
+        "fp16_conf": 0.25180986523628235,
+        "delta_fp16_minus_fp32": 0.003952130675315857,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_231357.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2523127496242523,
+        "fp16_conf": 0.2499874234199524,
+        "delta_fp16_minus_fp32": -0.0023253262042999268,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_232045.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24401646852493286,
+        "fp16_conf": 0.25018754601478577,
+        "delta_fp16_minus_fp32": 0.006171077489852905,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_232345.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2483774870634079,
+        "fp16_conf": 0.2503652572631836,
+        "delta_fp16_minus_fp32": 0.001987770199775696,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_232427.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2510479688644409,
+        "fp16_conf": 0.24705560505390167,
+        "delta_fp16_minus_fp32": -0.003992363810539246,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_232903.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25019413232803345,
+        "fp16_conf": 0.24887840449810028,
+        "delta_fp16_minus_fp32": -0.0013157278299331665,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_233000.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2503940761089325,
+        "fp16_conf": 0.24583689868450165,
+        "delta_fp16_minus_fp32": -0.004557177424430847,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_233324.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.257463276386261,
+        "fp16_conf": 0.24849244952201843,
+        "delta_fp16_minus_fp32": -0.008970826864242554,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_233539.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2526029050350189,
+        "fp16_conf": 0.24921314418315887,
+        "delta_fp16_minus_fp32": -0.0033897608518600464,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_233551.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25173482298851013,
+        "fp16_conf": 0.24957823753356934,
+        "delta_fp16_minus_fp32": -0.002156585454940796,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_233612.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25170329213142395,
+        "fp16_conf": 0.24825647473335266,
+        "delta_fp16_minus_fp32": -0.003446817398071289,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_234233.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2516453266143799,
+        "fp16_conf": 0.24849344789981842,
+        "delta_fp16_minus_fp32": -0.0031518787145614624,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_234800.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25206732749938965,
+        "fp16_conf": 0.24785855412483215,
+        "delta_fp16_minus_fp32": -0.004208773374557495,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_234951.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2507273852825165,
+        "fp16_conf": 0.2471153438091278,
+        "delta_fp16_minus_fp32": -0.003612041473388672,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_234951.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2504318356513977,
+        "fp16_conf": 0.24856293201446533,
+        "delta_fp16_minus_fp32": -0.001868903636932373,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235000.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25251802802085876,
+        "fp16_conf": 0.24831809103488922,
+        "delta_fp16_minus_fp32": -0.0041999369859695435,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235212.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24788819253444672,
+        "fp16_conf": 0.2508929371833801,
+        "delta_fp16_minus_fp32": 0.0030047446489334106,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235300.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2560662627220154,
+        "fp16_conf": 0.24813568592071533,
+        "delta_fp16_minus_fp32": -0.007930576801300049,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235348.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25193697214126587,
+        "fp16_conf": 0.249740332365036,
+        "delta_fp16_minus_fp32": -0.0021966397762298584,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235800.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25482797622680664,
+        "fp16_conf": 0.24991586804389954,
+        "delta_fp16_minus_fp32": -0.0049121081829071045,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235839.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25530049204826355,
+        "fp16_conf": 0.2482243776321411,
+        "delta_fp16_minus_fp32": -0.0070761144161224365,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250317_235954.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2525274455547333,
+        "fp16_conf": 0.24980509281158447,
+        "delta_fp16_minus_fp32": -0.0027223527431488037,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_000033.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2513437569141388,
+        "fp16_conf": 0.24910180270671844,
+        "delta_fp16_minus_fp32": -0.002241954207420349,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_000233.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2515360713005066,
+        "fp16_conf": 0.24649763107299805,
+        "delta_fp16_minus_fp32": -0.005038440227508545,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_000436.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2508881986141205,
+        "fp16_conf": 0.24715392291545868,
+        "delta_fp16_minus_fp32": -0.003734275698661804,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_000957.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2504163086414337,
+        "fp16_conf": 0.24987220764160156,
+        "delta_fp16_minus_fp32": -0.0005441009998321533,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_001303.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25308170914649963,
+        "fp16_conf": 0.24936559796333313,
+        "delta_fp16_minus_fp32": -0.003716111183166504,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_001651.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2492108941078186,
+        "fp16_conf": 0.2519182562828064,
+        "delta_fp16_minus_fp32": 0.002707362174987793,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_003136.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24885587394237518,
+        "fp16_conf": 0.25063109397888184,
+        "delta_fp16_minus_fp32": 0.0017752200365066528,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_004003.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2507908344268799,
+        "fp16_conf": 0.24879668653011322,
+        "delta_fp16_minus_fp32": -0.0019941478967666626,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_004157.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2488246113061905,
+        "fp16_conf": 0.2512354552745819,
+        "delta_fp16_minus_fp32": 0.0024108439683914185,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_004545.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2502465844154358,
+        "fp16_conf": 0.24731023609638214,
+        "delta_fp16_minus_fp32": -0.00293634831905365,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_005324.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2506517767906189,
+        "fp16_conf": 0.24893444776535034,
+        "delta_fp16_minus_fp32": -0.0017173290252685547,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_010751.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24978849291801453,
+        "fp16_conf": 0.2542933523654938,
+        "delta_fp16_minus_fp32": 0.004504859447479248,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_011200.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2547829747200012,
+        "fp16_conf": 0.2496195286512375,
+        "delta_fp16_minus_fp32": -0.005163446068763733,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_011339.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24956178665161133,
+        "fp16_conf": 0.2502915561199188,
+        "delta_fp16_minus_fp32": 0.0007297694683074951,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_011727.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2507005035877228,
+        "fp16_conf": 0.24927596747875214,
+        "delta_fp16_minus_fp32": -0.001424536108970642,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_012736.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2519608736038208,
+        "fp16_conf": 0.24980120360851288,
+        "delta_fp16_minus_fp32": -0.0021596699953079224,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_013239.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24971413612365723,
+        "fp16_conf": 0.25174832344055176,
+        "delta_fp16_minus_fp32": 0.0020341873168945312,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_014348.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25413140654563904,
+        "fp16_conf": 0.246193066239357,
+        "delta_fp16_minus_fp32": -0.007938340306282043,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_014421.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.251041978597641,
+        "fp16_conf": 0.24980250000953674,
+        "delta_fp16_minus_fp32": -0.001239478588104248,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_015224.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2508620619773865,
+        "fp16_conf": 0.24768805503845215,
+        "delta_fp16_minus_fp32": -0.003174006938934326,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_020412.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25000882148742676,
+        "fp16_conf": 0.2483872026205063,
+        "delta_fp16_minus_fp32": -0.0016216188669204712,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_021103.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2515852153301239,
+        "fp16_conf": 0.2493312954902649,
+        "delta_fp16_minus_fp32": -0.002253919839859009,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_021106.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2502070367336273,
+        "fp16_conf": 0.24712765216827393,
+        "delta_fp16_minus_fp32": -0.0030793845653533936,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_021142.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25348183512687683,
+        "fp16_conf": 0.24903252720832825,
+        "delta_fp16_minus_fp32": -0.004449307918548584,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_022433.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24780037999153137,
+        "fp16_conf": 0.2619399130344391,
+        "delta_fp16_minus_fp32": 0.014139533042907715,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_022454.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25121626257896423,
+        "fp16_conf": 0.2472701221704483,
+        "delta_fp16_minus_fp32": -0.00394614040851593,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_022624.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25005146861076355,
+        "fp16_conf": 0.2471788078546524,
+        "delta_fp16_minus_fp32": -0.002872660756111145,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_023542.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2502249479293823,
+        "fp16_conf": 0.2491418421268463,
+        "delta_fp16_minus_fp32": -0.0010831058025360107,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_023654.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2519974708557129,
+        "fp16_conf": 0.2493748515844345,
+        "delta_fp16_minus_fp32": -0.0026226192712783813,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_023830.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2486170530319214,
+        "fp16_conf": 0.2532804310321808,
+        "delta_fp16_minus_fp32": 0.004663378000259399,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_023942.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25031378865242004,
+        "fp16_conf": 0.24783144891262054,
+        "delta_fp16_minus_fp32": -0.0024823397397994995,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_024112.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2533982992172241,
+        "fp16_conf": 0.2491369992494583,
+        "delta_fp16_minus_fp32": -0.004261299967765808,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_024915.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25101903080940247,
+        "fp16_conf": 0.24996531009674072,
+        "delta_fp16_minus_fp32": -0.0010537207126617432,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_030542.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2518298029899597,
+        "fp16_conf": 0.2465687394142151,
+        "delta_fp16_minus_fp32": -0.005261063575744629,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_030900.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25023630261421204,
+        "fp16_conf": 0.24555560946464539,
+        "delta_fp16_minus_fp32": -0.00468069314956665,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_031151.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24834389984607697,
+        "fp16_conf": 0.25510725378990173,
+        "delta_fp16_minus_fp32": 0.006763353943824768,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_031321.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25075313448905945,
+        "fp16_conf": 0.2466171681880951,
+        "delta_fp16_minus_fp32": -0.0041359663009643555,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_031354.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24837201833724976,
+        "fp16_conf": 0.25132954120635986,
+        "delta_fp16_minus_fp32": 0.0029575228691101074,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_031548.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25028616189956665,
+        "fp16_conf": 0.248870849609375,
+        "delta_fp16_minus_fp32": -0.0014153122901916504,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_033251.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25030791759490967,
+        "fp16_conf": 0.24744199216365814,
+        "delta_fp16_minus_fp32": -0.002865925431251526,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_033606.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24539901316165924,
+        "fp16_conf": 0.2501927316188812,
+        "delta_fp16_minus_fp32": 0.004793718457221985,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_033921.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2506253719329834,
+        "fp16_conf": 0.2499121129512787,
+        "delta_fp16_minus_fp32": -0.0007132589817047119,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_034536.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.251832515001297,
+        "fp16_conf": 0.2495698630809784,
+        "delta_fp16_minus_fp32": -0.0022626519203186035,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_034618.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25050392746925354,
+        "fp16_conf": 0.249777153134346,
+        "delta_fp16_minus_fp32": -0.0007267743349075317,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_034909.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25119465589523315,
+        "fp16_conf": 0.2497292459011078,
+        "delta_fp16_minus_fp32": -0.0014654099941253662,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_035251.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2505475580692291,
+        "fp16_conf": 0.2495725303888321,
+        "delta_fp16_minus_fp32": -0.0009750276803970337,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_035700.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2501034736633301,
+        "fp16_conf": 0.2490098476409912,
+        "delta_fp16_minus_fp32": -0.0010936260223388672,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_035827.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.255577027797699,
+        "fp16_conf": 0.24470780789852142,
+        "delta_fp16_minus_fp32": -0.010869219899177551,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_040815.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2505263090133667,
+        "fp16_conf": 0.24633759260177612,
+        "delta_fp16_minus_fp32": -0.004188716411590576,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_040824.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2516559958457947,
+        "fp16_conf": 0.24641062319278717,
+        "delta_fp16_minus_fp32": -0.005245372653007507,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_041233.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2508920133113861,
+        "fp16_conf": 0.24539878964424133,
+        "delta_fp16_minus_fp32": -0.005493223667144775,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_042115.wav",
+        "species": "Nyctibius griseus_Common Potoo",
+        "fp32_conf": 0.2516590654850006,
+        "fp16_conf": 0.2499675750732422,
+        "delta_fp16_minus_fp32": -0.0016914904117584229,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_042348.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2502336800098419,
+        "fp16_conf": 0.24811320006847382,
+        "delta_fp16_minus_fp32": -0.002120479941368103,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_043030.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24875901639461517,
+        "fp16_conf": 0.25030118227005005,
+        "delta_fp16_minus_fp32": 0.0015421658754348755,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_044309.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2513910233974457,
+        "fp16_conf": 0.24951249361038208,
+        "delta_fp16_minus_fp32": -0.0018785297870635986,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_044451.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25081363320350647,
+        "fp16_conf": 0.24993790686130524,
+        "delta_fp16_minus_fp32": -0.0008757263422012329,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_044454.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24933746457099915,
+        "fp16_conf": 0.2500959038734436,
+        "delta_fp16_minus_fp32": 0.000758439302444458,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_044933.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2548816204071045,
+        "fp16_conf": 0.2495191991329193,
+        "delta_fp16_minus_fp32": -0.005362421274185181,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_045427.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2501823604106903,
+        "fp16_conf": 0.2489166259765625,
+        "delta_fp16_minus_fp32": -0.0012657344341278076,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_045609.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2527128756046295,
+        "fp16_conf": 0.24818424880504608,
+        "delta_fp16_minus_fp32": -0.004528626799583435,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_055630.wav",
+        "species": "Amazona autumnalis_Red-lored Parrot",
+        "fp32_conf": 0.24679623544216156,
+        "fp16_conf": 0.2519128620624542,
+        "delta_fp16_minus_fp32": 0.005116626620292664,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_062048.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.2500995993614197,
+        "fp16_conf": 0.24207986891269684,
+        "delta_fp16_minus_fp32": -0.00801973044872284,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_072909.wav",
+        "species": "Poliocrania exsul_Chestnut-backed Antbird",
+        "fp32_conf": 0.25051364302635193,
+        "fp16_conf": 0.24875503778457642,
+        "delta_fp16_minus_fp32": -0.0017586052417755127,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_092106.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2525118589401245,
+        "fp16_conf": 0.24961495399475098,
+        "delta_fp16_minus_fp32": -0.002896904945373535,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_095315.wav",
+        "species": "Hylophylax naevioides_Spotted Antbird",
+        "fp32_conf": 0.24958792328834534,
+        "fp16_conf": 0.25226107239723206,
+        "delta_fp16_minus_fp32": 0.0026731491088867188,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_104618.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.2514752447605133,
+        "fp16_conf": 0.2499118149280548,
+        "delta_fp16_minus_fp32": -0.001563429832458496,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_113154.wav",
+        "species": "Thamnophilus bridgesi_Black-hooded Antshrike",
+        "fp32_conf": 0.2502511143684387,
+        "fp16_conf": 0.24941997230052948,
+        "delta_fp16_minus_fp32": -0.0008311420679092407,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_130018.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25001636147499084,
+        "fp16_conf": 0.2499544471502304,
+        "delta_fp16_minus_fp32": -6.191432476043701e-05,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_130954.wav",
+        "species": "Lepidothrix coronata_Blue-crowned Manakin",
+        "fp32_conf": 0.2484358698129654,
+        "fp16_conf": 0.25070640444755554,
+        "delta_fp16_minus_fp32": 0.002270534634590149,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_134824.wav",
+        "species": "Thamnophilus bridgesi_Black-hooded Antshrike",
+        "fp32_conf": 0.2519606947898865,
+        "fp16_conf": 0.24883092939853668,
+        "delta_fp16_minus_fp32": -0.0031297653913497925,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_140157.wav",
+        "species": "Arremon aurantiirostris_Orange-billed Sparrow",
+        "fp32_conf": 0.25143343210220337,
+        "fp16_conf": 0.2487732470035553,
+        "delta_fp16_minus_fp32": -0.0026601850986480713,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_143039.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.250230073928833,
+        "fp16_conf": 0.2488558143377304,
+        "delta_fp16_minus_fp32": -0.0013742595911026,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_160412.wav",
+        "species": "Thamnophilus bridgesi_Black-hooded Antshrike",
+        "fp32_conf": 0.25087055563926697,
+        "fp16_conf": 0.2485763281583786,
+        "delta_fp16_minus_fp32": -0.0022942274808883667,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_160503.wav",
+        "species": "Ara macao_Scarlet Macaw",
+        "fp32_conf": 0.252575159072876,
+        "fp16_conf": 0.24906675517559052,
+        "delta_fp16_minus_fp32": -0.0035084038972854614,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_181930.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2502705454826355,
+        "fp16_conf": 0.24949848651885986,
+        "delta_fp16_minus_fp32": -0.0007720589637756348,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_182303.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24996665120124817,
+        "fp16_conf": 0.25013890862464905,
+        "delta_fp16_minus_fp32": 0.0001722574234008789,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_182624.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2509883642196655,
+        "fp16_conf": 0.2490089386701584,
+        "delta_fp16_minus_fp32": -0.001979425549507141,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_183109.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2531372308731079,
+        "fp16_conf": 0.2480289787054062,
+        "delta_fp16_minus_fp32": -0.005108252167701721,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_183924.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24952015280723572,
+        "fp16_conf": 0.2508816421031952,
+        "delta_fp16_minus_fp32": 0.0013614892959594727,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_184948.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2505030632019043,
+        "fp16_conf": 0.24972543120384216,
+        "delta_fp16_minus_fp32": -0.0007776319980621338,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_192700.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25005054473876953,
+        "fp16_conf": 0.24978870153427124,
+        "delta_fp16_minus_fp32": -0.000261843204498291,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_193906.wav",
+        "species": "Crypturellus soui_Little Tinamou",
+        "fp32_conf": 0.2499852180480957,
+        "fp16_conf": 0.2514946758747101,
+        "delta_fp16_minus_fp32": 0.0015094578266143799,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_194942.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2516845762729645,
+        "fp16_conf": 0.2484450489282608,
+        "delta_fp16_minus_fp32": -0.0032395273447036743,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_200727.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2505803406238556,
+        "fp16_conf": 0.24937376379966736,
+        "delta_fp16_minus_fp32": -0.0012065768241882324,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_201206.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25032588839530945,
+        "fp16_conf": 0.2463373988866806,
+        "delta_fp16_minus_fp32": -0.003988489508628845,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_202051.wav",
+        "species": "Hylophylax naevioides_Spotted Antbird",
+        "fp32_conf": 0.25093838572502136,
+        "fp16_conf": 0.24990853667259216,
+        "delta_fp16_minus_fp32": -0.0010298490524291992,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_203036.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2515389323234558,
+        "fp16_conf": 0.2469344139099121,
+        "delta_fp16_minus_fp32": -0.004604518413543701,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_203603.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2501123547554016,
+        "fp16_conf": 0.24874082207679749,
+        "delta_fp16_minus_fp32": -0.001371532678604126,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_203751.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25166457891464233,
+        "fp16_conf": 0.24983952939510345,
+        "delta_fp16_minus_fp32": -0.0018250495195388794,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_204145.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25263264775276184,
+        "fp16_conf": 0.24803252518177032,
+        "delta_fp16_minus_fp32": -0.004600122570991516,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_204548.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2503703534603119,
+        "fp16_conf": 0.24875400960445404,
+        "delta_fp16_minus_fp32": -0.0016163438558578491,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_205045.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2501617670059204,
+        "fp16_conf": 0.24824100732803345,
+        "delta_fp16_minus_fp32": -0.0019207596778869629,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_205412.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25005534291267395,
+        "fp16_conf": 0.24903829395771027,
+        "delta_fp16_minus_fp32": -0.001017048954963684,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_211821.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25060081481933594,
+        "fp16_conf": 0.2450832575559616,
+        "delta_fp16_minus_fp32": -0.005517557263374329,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_212057.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2527952194213867,
+        "fp16_conf": 0.24825423955917358,
+        "delta_fp16_minus_fp32": -0.004540979862213135,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_213018.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25304901599884033,
+        "fp16_conf": 0.2498433142900467,
+        "delta_fp16_minus_fp32": -0.00320570170879364,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_213851.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2502387464046478,
+        "fp16_conf": 0.24804584681987762,
+        "delta_fp16_minus_fp32": -0.0021928995847702026,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_214018.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2516692578792572,
+        "fp16_conf": 0.2490876317024231,
+        "delta_fp16_minus_fp32": -0.0025816261768341064,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_214833.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25071805715560913,
+        "fp16_conf": 0.2492685616016388,
+        "delta_fp16_minus_fp32": -0.001449495553970337,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_215339.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25102654099464417,
+        "fp16_conf": 0.24951279163360596,
+        "delta_fp16_minus_fp32": -0.001513749361038208,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_215712.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2531125545501709,
+        "fp16_conf": 0.24994619190692902,
+        "delta_fp16_minus_fp32": -0.0031663626432418823,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_220039.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2503194808959961,
+        "fp16_conf": 0.24872754514217377,
+        "delta_fp16_minus_fp32": -0.0015919357538223267,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_220118.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25222525000572205,
+        "fp16_conf": 0.24851854145526886,
+        "delta_fp16_minus_fp32": -0.003706708550453186,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_220445.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25039437413215637,
+        "fp16_conf": 0.24989865720272064,
+        "delta_fp16_minus_fp32": -0.00049571692943573,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_222315.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24844175577163696,
+        "fp16_conf": 0.2503369450569153,
+        "delta_fp16_minus_fp32": 0.0018951892852783203,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_223806.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25039100646972656,
+        "fp16_conf": 0.24802140891551971,
+        "delta_fp16_minus_fp32": -0.002369597554206848,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_224242.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2503305673599243,
+        "fp16_conf": 0.2498840093612671,
+        "delta_fp16_minus_fp32": -0.00044655799865722656,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_224345.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2485615462064743,
+        "fp16_conf": 0.2503444254398346,
+        "delta_fp16_minus_fp32": 0.0017828792333602905,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_224624.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2503916323184967,
+        "fp16_conf": 0.24907290935516357,
+        "delta_fp16_minus_fp32": -0.0013187229633331299,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_224757.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24833784997463226,
+        "fp16_conf": 0.25009045004844666,
+        "delta_fp16_minus_fp32": 0.001752600073814392,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_224936.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2500828206539154,
+        "fp16_conf": 0.2482662796974182,
+        "delta_fp16_minus_fp32": -0.0018165409564971924,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_225345.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.250007688999176,
+        "fp16_conf": 0.24719876050949097,
+        "delta_fp16_minus_fp32": -0.0028089284896850586,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_225433.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2505852282047272,
+        "fp16_conf": 0.24899335205554962,
+        "delta_fp16_minus_fp32": -0.0015918761491775513,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_230712.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24973611533641815,
+        "fp16_conf": 0.25116831064224243,
+        "delta_fp16_minus_fp32": 0.0014321953058242798,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_231900.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25258004665374756,
+        "fp16_conf": 0.2499811351299286,
+        "delta_fp16_minus_fp32": -0.0025989115238189697,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_233121.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24874787032604218,
+        "fp16_conf": 0.2503272593021393,
+        "delta_fp16_minus_fp32": 0.001579388976097107,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_233230.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.250008225440979,
+        "fp16_conf": 0.24703334271907806,
+        "delta_fp16_minus_fp32": -0.00297488272190094,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_233627.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25314435362815857,
+        "fp16_conf": 0.24973277747631073,
+        "delta_fp16_minus_fp32": -0.0034115761518478394,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_233648.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25259190797805786,
+        "fp16_conf": 0.24750281870365143,
+        "delta_fp16_minus_fp32": -0.005089089274406433,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_235433.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2491770088672638,
+        "fp16_conf": 0.25167688727378845,
+        "delta_fp16_minus_fp32": 0.002499878406524658,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_235639.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2496727555990219,
+        "fp16_conf": 0.2507626414299011,
+        "delta_fp16_minus_fp32": 0.0010898858308792114,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250318_235824.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2493261694908142,
+        "fp16_conf": 0.2503235936164856,
+        "delta_fp16_minus_fp32": 0.0009974241256713867,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_000024.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2513754069805145,
+        "fp16_conf": 0.2497672289609909,
+        "delta_fp16_minus_fp32": -0.0016081780195236206,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_000251.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24992628395557404,
+        "fp16_conf": 0.2512834668159485,
+        "delta_fp16_minus_fp32": 0.0013571828603744507,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_000345.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2496071308851242,
+        "fp16_conf": 0.2503893971443176,
+        "delta_fp16_minus_fp32": 0.0007822662591934204,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_000430.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2499968409538269,
+        "fp16_conf": 0.25025254487991333,
+        "delta_fp16_minus_fp32": 0.0002557039260864258,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_000742.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24867743253707886,
+        "fp16_conf": 0.2505347430706024,
+        "delta_fp16_minus_fp32": 0.0018573105335235596,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_001109.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2502017617225647,
+        "fp16_conf": 0.24967682361602783,
+        "delta_fp16_minus_fp32": -0.0005249381065368652,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_001127.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24881432950496674,
+        "fp16_conf": 0.25058311223983765,
+        "delta_fp16_minus_fp32": 0.0017687827348709106,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_001524.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2479548454284668,
+        "fp16_conf": 0.25174659490585327,
+        "delta_fp16_minus_fp32": 0.0037917494773864746,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_001600.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25315210223197937,
+        "fp16_conf": 0.24963262677192688,
+        "delta_fp16_minus_fp32": -0.0035194754600524902,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_001645.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24921302497386932,
+        "fp16_conf": 0.2505076825618744,
+        "delta_fp16_minus_fp32": 0.001294657588005066,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_002133.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24986161291599274,
+        "fp16_conf": 0.25122973322868347,
+        "delta_fp16_minus_fp32": 0.0013681203126907349,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_002845.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2473030984401703,
+        "fp16_conf": 0.2504954934120178,
+        "delta_fp16_minus_fp32": 0.003192394971847534,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_003806.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2508271634578705,
+        "fp16_conf": 0.24966268241405487,
+        "delta_fp16_minus_fp32": -0.0011644810438156128,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_004024.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2505272924900055,
+        "fp16_conf": 0.24883782863616943,
+        "delta_fp16_minus_fp32": -0.0016894638538360596,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_004054.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24764692783355713,
+        "fp16_conf": 0.2513062357902527,
+        "delta_fp16_minus_fp32": 0.0036593079566955566,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_004330.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25001636147499084,
+        "fp16_conf": 0.2488008737564087,
+        "delta_fp16_minus_fp32": -0.0012154877185821533,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_004800.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2534111738204956,
+        "fp16_conf": 0.24903415143489838,
+        "delta_fp16_minus_fp32": -0.004377022385597229,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_005457.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.249453604221344,
+        "fp16_conf": 0.25077906250953674,
+        "delta_fp16_minus_fp32": 0.001325458288192749,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_005521.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2502838969230652,
+        "fp16_conf": 0.24911059439182281,
+        "delta_fp16_minus_fp32": -0.0011733025312423706,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_005639.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24992182850837708,
+        "fp16_conf": 0.2516966760158539,
+        "delta_fp16_minus_fp32": 0.0017748475074768066,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_005815.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25049224495887756,
+        "fp16_conf": 0.2498479187488556,
+        "delta_fp16_minus_fp32": -0.0006443262100219727,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_010130.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2500728368759155,
+        "fp16_conf": 0.2499966025352478,
+        "delta_fp16_minus_fp32": -7.623434066772461e-05,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_010551.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2499072253704071,
+        "fp16_conf": 0.2531396150588989,
+        "delta_fp16_minus_fp32": 0.0032323896884918213,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_010609.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25165244936943054,
+        "fp16_conf": 0.24930836260318756,
+        "delta_fp16_minus_fp32": -0.002344086766242981,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_010657.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25039711594581604,
+        "fp16_conf": 0.24801889061927795,
+        "delta_fp16_minus_fp32": -0.002378225326538086,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_010809.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24850010871887207,
+        "fp16_conf": 0.2505004405975342,
+        "delta_fp16_minus_fp32": 0.0020003318786621094,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_010900.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2486911416053772,
+        "fp16_conf": 0.25116202235221863,
+        "delta_fp16_minus_fp32": 0.0024708807468414307,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_011418.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24816228449344635,
+        "fp16_conf": 0.2505464553833008,
+        "delta_fp16_minus_fp32": 0.002384170889854431,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_011912.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25012603402137756,
+        "fp16_conf": 0.24918855726718903,
+        "delta_fp16_minus_fp32": -0.0009374767541885376,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_012706.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25011780858039856,
+        "fp16_conf": 0.24943989515304565,
+        "delta_fp16_minus_fp32": -0.0006779134273529053,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_012815.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2515636086463928,
+        "fp16_conf": 0.24701395630836487,
+        "delta_fp16_minus_fp32": -0.004549652338027954,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_012933.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2510473430156708,
+        "fp16_conf": 0.249250128865242,
+        "delta_fp16_minus_fp32": -0.001797214150428772,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_013036.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2509028911590576,
+        "fp16_conf": 0.24959659576416016,
+        "delta_fp16_minus_fp32": -0.001306295394897461,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_013209.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24874551594257355,
+        "fp16_conf": 0.25065726041793823,
+        "delta_fp16_minus_fp32": 0.001911744475364685,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_013415.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25068655610084534,
+        "fp16_conf": 0.24845317006111145,
+        "delta_fp16_minus_fp32": -0.0022333860397338867,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_013612.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25082334876060486,
+        "fp16_conf": 0.2491448074579239,
+        "delta_fp16_minus_fp32": -0.0016785413026809692,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_014709.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25024211406707764,
+        "fp16_conf": 0.24892230331897736,
+        "delta_fp16_minus_fp32": -0.0013198107481002808,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_014800.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24974848330020905,
+        "fp16_conf": 0.2506980001926422,
+        "delta_fp16_minus_fp32": 0.0009495168924331665,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_015906.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24825964868068695,
+        "fp16_conf": 0.25025293231010437,
+        "delta_fp16_minus_fp32": 0.0019932836294174194,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_020845.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2475166916847229,
+        "fp16_conf": 0.25080567598342896,
+        "delta_fp16_minus_fp32": 0.0032889842987060547,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_021030.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2512737214565277,
+        "fp16_conf": 0.24711327254772186,
+        "delta_fp16_minus_fp32": -0.004160448908805847,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_022000.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2515277862548828,
+        "fp16_conf": 0.24976451694965363,
+        "delta_fp16_minus_fp32": -0.001763269305229187,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_022312.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2486288994550705,
+        "fp16_conf": 0.25191450119018555,
+        "delta_fp16_minus_fp32": 0.0032856017351150513,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_023315.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2511853873729706,
+        "fp16_conf": 0.24727720022201538,
+        "delta_fp16_minus_fp32": -0.0039081871509552,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_023345.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24948903918266296,
+        "fp16_conf": 0.2500951290130615,
+        "delta_fp16_minus_fp32": 0.0006060898303985596,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_023806.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24934208393096924,
+        "fp16_conf": 0.25116243958473206,
+        "delta_fp16_minus_fp32": 0.0018203556537628174,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_024539.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2503722310066223,
+        "fp16_conf": 0.2492416948080063,
+        "delta_fp16_minus_fp32": -0.0011305361986160278,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_024715.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2519241273403168,
+        "fp16_conf": 0.2485664337873459,
+        "delta_fp16_minus_fp32": -0.0033576935529708862,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_025500.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25126707553863525,
+        "fp16_conf": 0.2475350946187973,
+        "delta_fp16_minus_fp32": -0.0037319809198379517,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_025730.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2497807890176773,
+        "fp16_conf": 0.25004100799560547,
+        "delta_fp16_minus_fp32": 0.0002602189779281616,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_030806.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2492467314004898,
+        "fp16_conf": 0.2501366436481476,
+        "delta_fp16_minus_fp32": 0.0008899122476577759,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_031006.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24982622265815735,
+        "fp16_conf": 0.2520609498023987,
+        "delta_fp16_minus_fp32": 0.002234727144241333,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_033948.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24948400259017944,
+        "fp16_conf": 0.25205543637275696,
+        "delta_fp16_minus_fp32": 0.0025714337825775146,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_034048.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2500295639038086,
+        "fp16_conf": 0.24913232028484344,
+        "delta_fp16_minus_fp32": -0.0008972436189651489,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_034548.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25027337670326233,
+        "fp16_conf": 0.24977780878543854,
+        "delta_fp16_minus_fp32": -0.0004955679178237915,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_043033.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25031614303588867,
+        "fp16_conf": 0.24592316150665283,
+        "delta_fp16_minus_fp32": -0.00439298152923584,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_043351.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2548488676548004,
+        "fp16_conf": 0.24962766468524933,
+        "delta_fp16_minus_fp32": -0.005221202969551086,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_044757.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25280430912971497,
+        "fp16_conf": 0.24993006885051727,
+        "delta_fp16_minus_fp32": -0.002874240279197693,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_044824.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25127333402633667,
+        "fp16_conf": 0.2488500028848648,
+        "delta_fp16_minus_fp32": -0.002423331141471863,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_045133.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2496577948331833,
+        "fp16_conf": 0.2516525089740753,
+        "delta_fp16_minus_fp32": 0.001994714140892029,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_050330.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2501201331615448,
+        "fp16_conf": 0.2485337108373642,
+        "delta_fp16_minus_fp32": -0.001586422324180603,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_063239.wav",
+        "species": "Saltator maximus_Buff-throated Saltator",
+        "fp32_conf": 0.25006619095802307,
+        "fp16_conf": 0.24821744859218597,
+        "delta_fp16_minus_fp32": -0.0018487423658370972,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_083942.wav",
+        "species": "Crax rubra_Great Curassow",
+        "fp32_conf": 0.25225749611854553,
+        "fp16_conf": 0.24931861460208893,
+        "delta_fp16_minus_fp32": -0.002938881516456604,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_084533.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.25312095880508423,
+        "fp16_conf": 0.24765782058238983,
+        "delta_fp16_minus_fp32": -0.005463138222694397,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_104345.wav",
+        "species": "Eucometis penicillata_Gray-headed Tanager",
+        "fp32_conf": 0.25206300616264343,
+        "fp16_conf": 0.2466723471879959,
+        "delta_fp16_minus_fp32": -0.005390658974647522,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_105254.wav",
+        "species": "Chlorophanes spiza_Green Honeycreeper",
+        "fp32_conf": 0.2507021725177765,
+        "fp16_conf": 0.24916629493236542,
+        "delta_fp16_minus_fp32": -0.0015358775854110718,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_111445.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.25265562534332275,
+        "fp16_conf": 0.24713456630706787,
+        "delta_fp16_minus_fp32": -0.005521059036254883,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_114236.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25095662474632263,
+        "fp16_conf": 0.24823296070098877,
+        "delta_fp16_minus_fp32": -0.0027236640453338623,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_121233.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25151172280311584,
+        "fp16_conf": 0.24990229308605194,
+        "delta_fp16_minus_fp32": -0.0016094297170639038,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_175821.wav",
+        "species": "Megascops cooperi_Pacific Screech-Owl",
+        "fp32_conf": 0.24774914979934692,
+        "fp16_conf": 0.25114524364471436,
+        "delta_fp16_minus_fp32": 0.0033960938453674316,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_175827.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2513992488384247,
+        "fp16_conf": 0.24873188138008118,
+        "delta_fp16_minus_fp32": -0.002667367458343506,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_180148.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2504580020904541,
+        "fp16_conf": 0.24943764507770538,
+        "delta_fp16_minus_fp32": -0.0010203570127487183,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_180424.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25076723098754883,
+        "fp16_conf": 0.2498656064271927,
+        "delta_fp16_minus_fp32": -0.0009016245603561401,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_181536.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.250430703163147,
+        "fp16_conf": 0.2496775984764099,
+        "delta_fp16_minus_fp32": -0.0007531046867370605,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_181554.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2505148947238922,
+        "fp16_conf": 0.24826394021511078,
+        "delta_fp16_minus_fp32": -0.002250954508781433,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_181942.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25064969062805176,
+        "fp16_conf": 0.24865160882472992,
+        "delta_fp16_minus_fp32": -0.0019980818033218384,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_182151.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25050103664398193,
+        "fp16_conf": 0.2444821298122406,
+        "delta_fp16_minus_fp32": -0.006018906831741333,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_182245.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2491970956325531,
+        "fp16_conf": 0.2503666579723358,
+        "delta_fp16_minus_fp32": 0.0011695623397827148,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_182845.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2505286633968353,
+        "fp16_conf": 0.24985146522521973,
+        "delta_fp16_minus_fp32": -0.0006771981716156006,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_183221.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24931932985782623,
+        "fp16_conf": 0.2511293590068817,
+        "delta_fp16_minus_fp32": 0.001810029149055481,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_183648.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24891072511672974,
+        "fp16_conf": 0.25030621886253357,
+        "delta_fp16_minus_fp32": 0.001395493745803833,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_184154.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25173261761665344,
+        "fp16_conf": 0.2487332969903946,
+        "delta_fp16_minus_fp32": -0.00299932062625885,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_184230.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24949562549591064,
+        "fp16_conf": 0.2509390711784363,
+        "delta_fp16_minus_fp32": 0.0014434456825256348,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_184524.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25110703706741333,
+        "fp16_conf": 0.24652999639511108,
+        "delta_fp16_minus_fp32": -0.004577040672302246,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_184918.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24814769625663757,
+        "fp16_conf": 0.2505916655063629,
+        "delta_fp16_minus_fp32": 0.002443969249725342,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_185318.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2498473823070526,
+        "fp16_conf": 0.2500930428504944,
+        "delta_fp16_minus_fp32": 0.00024566054344177246,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_192154.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2532827854156494,
+        "fp16_conf": 0.24887317419052124,
+        "delta_fp16_minus_fp32": -0.004409611225128174,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_192324.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2507660984992981,
+        "fp16_conf": 0.24889004230499268,
+        "delta_fp16_minus_fp32": -0.00187605619430542,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_193348.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25109970569610596,
+        "fp16_conf": 0.24833084642887115,
+        "delta_fp16_minus_fp32": -0.0027688592672348022,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_194027.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25273698568344116,
+        "fp16_conf": 0.24814213812351227,
+        "delta_fp16_minus_fp32": -0.004594847559928894,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_194857.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2512078583240509,
+        "fp16_conf": 0.24745705723762512,
+        "delta_fp16_minus_fp32": -0.0037508010864257812,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_195245.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25124675035476685,
+        "fp16_conf": 0.24933628737926483,
+        "delta_fp16_minus_fp32": -0.0019104629755020142,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_200348.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2513664960861206,
+        "fp16_conf": 0.2485288381576538,
+        "delta_fp16_minus_fp32": -0.002837657928466797,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_201157.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2507386803627014,
+        "fp16_conf": 0.24684010446071625,
+        "delta_fp16_minus_fp32": -0.0038985759019851685,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_203427.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24723632633686066,
+        "fp16_conf": 0.2508654296398163,
+        "delta_fp16_minus_fp32": 0.0036291033029556274,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_205024.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25212621688842773,
+        "fp16_conf": 0.24822264909744263,
+        "delta_fp16_minus_fp32": -0.0039035677909851074,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_205242.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25268393754959106,
+        "fp16_conf": 0.24998873472213745,
+        "delta_fp16_minus_fp32": -0.0026952028274536133,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_211412.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25040537118911743,
+        "fp16_conf": 0.24969364702701569,
+        "delta_fp16_minus_fp32": -0.0007117241621017456,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_213539.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25382107496261597,
+        "fp16_conf": 0.2498464286327362,
+        "delta_fp16_minus_fp32": -0.003974646329879761,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_215830.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2518075406551361,
+        "fp16_conf": 0.24953900277614594,
+        "delta_fp16_minus_fp32": -0.0022685378789901733,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_220321.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25086307525634766,
+        "fp16_conf": 0.2487460970878601,
+        "delta_fp16_minus_fp32": -0.002116978168487549,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_220324.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2512627840042114,
+        "fp16_conf": 0.2487739473581314,
+        "delta_fp16_minus_fp32": -0.002488836646080017,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_220645.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2503887712955475,
+        "fp16_conf": 0.24902573227882385,
+        "delta_fp16_minus_fp32": -0.0013630390167236328,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_220742.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2508348822593689,
+        "fp16_conf": 0.24979989230632782,
+        "delta_fp16_minus_fp32": -0.0010349899530410767,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_223509.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25032588839530945,
+        "fp16_conf": 0.24925759434700012,
+        "delta_fp16_minus_fp32": -0.0010682940483093262,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_223509.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25077030062675476,
+        "fp16_conf": 0.2491883784532547,
+        "delta_fp16_minus_fp32": -0.001581922173500061,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_223909.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2522727847099304,
+        "fp16_conf": 0.2471344769001007,
+        "delta_fp16_minus_fp32": -0.005138307809829712,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_224009.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25048547983169556,
+        "fp16_conf": 0.2494422197341919,
+        "delta_fp16_minus_fp32": -0.0010432600975036621,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_224127.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24550524353981018,
+        "fp16_conf": 0.2511826455593109,
+        "delta_fp16_minus_fp32": 0.005677402019500732,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_224145.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2533704936504364,
+        "fp16_conf": 0.24918198585510254,
+        "delta_fp16_minus_fp32": -0.004188507795333862,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_224221.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25125062465667725,
+        "fp16_conf": 0.24923387169837952,
+        "delta_fp16_minus_fp32": -0.0020167529582977295,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_224227.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2502163350582123,
+        "fp16_conf": 0.24676121771335602,
+        "delta_fp16_minus_fp32": -0.003455117344856262,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_225130.wav",
+        "species": "Nyctibius griseus_Common Potoo",
+        "fp32_conf": 0.2452574074268341,
+        "fp16_conf": 0.25007811188697815,
+        "delta_fp16_minus_fp32": 0.004820704460144043,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_225212.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2503284513950348,
+        "fp16_conf": 0.24898551404476166,
+        "delta_fp16_minus_fp32": -0.0013429373502731323,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_225306.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24914801120758057,
+        "fp16_conf": 0.2506481111049652,
+        "delta_fp16_minus_fp32": 0.0015000998973846436,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_225357.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2508602738380432,
+        "fp16_conf": 0.24980995059013367,
+        "delta_fp16_minus_fp32": -0.001050323247909546,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_225506.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2497788816690445,
+        "fp16_conf": 0.2514999508857727,
+        "delta_fp16_minus_fp32": 0.0017210692167282104,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_230630.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2523849308490753,
+        "fp16_conf": 0.24895483255386353,
+        "delta_fp16_minus_fp32": -0.003430098295211792,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_231651.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24919560551643372,
+        "fp16_conf": 0.25046202540397644,
+        "delta_fp16_minus_fp32": 0.0012664198875427246,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_232306.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2513335943222046,
+        "fp16_conf": 0.24844205379486084,
+        "delta_fp16_minus_fp32": -0.00289154052734375,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_233721.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25086817145347595,
+        "fp16_conf": 0.24969734251499176,
+        "delta_fp16_minus_fp32": -0.001170828938484192,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_234403.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24927197396755219,
+        "fp16_conf": 0.2502845823764801,
+        "delta_fp16_minus_fp32": 0.0010126084089279175,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_234448.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.250485897064209,
+        "fp16_conf": 0.24958132207393646,
+        "delta_fp16_minus_fp32": -0.000904574990272522,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_234727.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25227293372154236,
+        "fp16_conf": 0.24865694344043732,
+        "delta_fp16_minus_fp32": -0.0036159902811050415,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250319_235348.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2512888014316559,
+        "fp16_conf": 0.24949538707733154,
+        "delta_fp16_minus_fp32": -0.0017934143543243408,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_000006.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24974985420703888,
+        "fp16_conf": 0.2513352334499359,
+        "delta_fp16_minus_fp32": 0.0015853792428970337,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_001357.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2514154314994812,
+        "fp16_conf": 0.2470814287662506,
+        "delta_fp16_minus_fp32": -0.004334002733230591,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_002600.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.2507680356502533,
+        "fp16_conf": 0.24797038733959198,
+        "delta_fp16_minus_fp32": -0.002797648310661316,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_003627.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24995432794094086,
+        "fp16_conf": 0.25102898478507996,
+        "delta_fp16_minus_fp32": 0.0010746568441390991,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_004257.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2521078288555145,
+        "fp16_conf": 0.2486518919467926,
+        "delta_fp16_minus_fp32": -0.003455936908721924,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_004548.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2500231862068176,
+        "fp16_conf": 0.24881072342395782,
+        "delta_fp16_minus_fp32": -0.0012124627828598022,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_005324.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2502138316631317,
+        "fp16_conf": 0.24862000346183777,
+        "delta_fp16_minus_fp32": -0.0015938282012939453,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_010021.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24963176250457764,
+        "fp16_conf": 0.25054505467414856,
+        "delta_fp16_minus_fp32": 0.0009132921695709229,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_010048.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25039389729499817,
+        "fp16_conf": 0.24940656125545502,
+        "delta_fp16_minus_fp32": -0.0009873360395431519,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_010327.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25168943405151367,
+        "fp16_conf": 0.24989770352840424,
+        "delta_fp16_minus_fp32": -0.001791730523109436,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_010718.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24927695095539093,
+        "fp16_conf": 0.2500268220901489,
+        "delta_fp16_minus_fp32": 0.0007498711347579956,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_010751.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.2509489059448242,
+        "fp16_conf": 0.2496776282787323,
+        "delta_fp16_minus_fp32": -0.001271277666091919,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_011518.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25071555376052856,
+        "fp16_conf": 0.24977673590183258,
+        "delta_fp16_minus_fp32": -0.0009388178586959839,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_012042.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2516496479511261,
+        "fp16_conf": 0.2488429695367813,
+        "delta_fp16_minus_fp32": -0.0028066784143447876,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_012951.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24863724410533905,
+        "fp16_conf": 0.251004695892334,
+        "delta_fp16_minus_fp32": 0.002367451786994934,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_020854.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2509373426437378,
+        "fp16_conf": 0.24975529313087463,
+        "delta_fp16_minus_fp32": -0.0011820495128631592,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_020936.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2516651451587677,
+        "fp16_conf": 0.24927107989788055,
+        "delta_fp16_minus_fp32": -0.002394065260887146,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_022212.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24979422986507416,
+        "fp16_conf": 0.25071316957473755,
+        "delta_fp16_minus_fp32": 0.0009189397096633911,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_023151.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24903090298175812,
+        "fp16_conf": 0.25034382939338684,
+        "delta_fp16_minus_fp32": 0.0013129264116287231,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_023442.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2502807080745697,
+        "fp16_conf": 0.24984394013881683,
+        "delta_fp16_minus_fp32": -0.00043676793575286865,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_024148.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2520502805709839,
+        "fp16_conf": 0.2494116574525833,
+        "delta_fp16_minus_fp32": -0.0026386231184005737,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_024427.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24874486029148102,
+        "fp16_conf": 0.25000447034835815,
+        "delta_fp16_minus_fp32": 0.0012596100568771362,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_024712.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24872799217700958,
+        "fp16_conf": 0.2501484155654907,
+        "delta_fp16_minus_fp32": 0.0014204233884811401,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_025230.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2498590499162674,
+        "fp16_conf": 0.25021642446517944,
+        "delta_fp16_minus_fp32": 0.00035737454891204834,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_025639.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24876557290554047,
+        "fp16_conf": 0.2518039643764496,
+        "delta_fp16_minus_fp32": 0.0030383914709091187,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_025754.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2502076327800751,
+        "fp16_conf": 0.24946114420890808,
+        "delta_fp16_minus_fp32": -0.0007464885711669922,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_030357.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25045332312583923,
+        "fp16_conf": 0.24879880249500275,
+        "delta_fp16_minus_fp32": -0.0016545206308364868,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_030918.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25117745995521545,
+        "fp16_conf": 0.24796845018863678,
+        "delta_fp16_minus_fp32": -0.0032090097665786743,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_031503.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24951528012752533,
+        "fp16_conf": 0.25131335854530334,
+        "delta_fp16_minus_fp32": 0.0017980784177780151,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_033706.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24996250867843628,
+        "fp16_conf": 0.2503296136856079,
+        "delta_fp16_minus_fp32": 0.00036710500717163086,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_040412.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25044572353363037,
+        "fp16_conf": 0.24902795255184174,
+        "delta_fp16_minus_fp32": -0.0014177709817886353,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_041003.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2517077922821045,
+        "fp16_conf": 0.2457769513130188,
+        "delta_fp16_minus_fp32": -0.005930840969085693,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_043654.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25164729356765747,
+        "fp16_conf": 0.2462608814239502,
+        "delta_fp16_minus_fp32": -0.005386412143707275,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_063224.wav",
+        "species": "Patagioenas nigrirostris_Short-billed Pigeon",
+        "fp32_conf": 0.25100377202033997,
+        "fp16_conf": 0.24870459735393524,
+        "delta_fp16_minus_fp32": -0.002299174666404724,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_071654.wav",
+        "species": "Ramphastos ambiguus_Yellow-throated Toucan",
+        "fp32_conf": 0.24711766839027405,
+        "fp16_conf": 0.2505996823310852,
+        "delta_fp16_minus_fp32": 0.0034820139408111572,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_100924.wav",
+        "species": "Ceratopipra mentalis_Red-capped Manakin",
+        "fp32_conf": 0.2525842487812042,
+        "fp16_conf": 0.24843786656856537,
+        "delta_fp16_minus_fp32": -0.004146382212638855,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_102821.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25016307830810547,
+        "fp16_conf": 0.2469557225704193,
+        "delta_fp16_minus_fp32": -0.0032073557376861572,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_112257.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25052136182785034,
+        "fp16_conf": 0.24916638433933258,
+        "delta_fp16_minus_fp32": -0.0013549774885177612,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_121512.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.2508358359336853,
+        "fp16_conf": 0.24759431183338165,
+        "delta_fp16_minus_fp32": -0.00324152410030365,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_132324.wav",
+        "species": "Phaenostictus mcleannani_Ocellated Antbird",
+        "fp32_conf": 0.2587546706199646,
+        "fp16_conf": 0.24892638623714447,
+        "delta_fp16_minus_fp32": -0.00982828438282013,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_132400.wav",
+        "species": "Phaenostictus mcleannani_Ocellated Antbird",
+        "fp32_conf": 0.24815529584884644,
+        "fp16_conf": 0.25197333097457886,
+        "delta_fp16_minus_fp32": 0.003818035125732422,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_1_20250320_141424.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25085335969924927,
+        "fp16_conf": 0.2493131011724472,
+        "delta_fp16_minus_fp32": -0.001540258526802063,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_3_20250319_212735.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2498479187488556,
+        "fp16_conf": 0.25070542097091675,
+        "delta_fp16_minus_fp32": 0.0008575022220611572,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_3_20250319_225705.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25034087896347046,
+        "fp16_conf": 0.24918563663959503,
+        "delta_fp16_minus_fp32": -0.0011552423238754272,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_3_20250320_060402.wav",
+        "species": "Vireolanius pulchellus_Green Shrike-Vireo",
+        "fp32_conf": 0.2500726282596588,
+        "fp16_conf": 0.24948975443840027,
+        "delta_fp16_minus_fp32": -0.0005828738212585449,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_3_20250320_061120.wav",
+        "species": "Arremon aurantiirostris_Orange-billed Sparrow",
+        "fp32_conf": 0.2509278357028961,
+        "fp16_conf": 0.2491442710161209,
+        "delta_fp16_minus_fp32": -0.0017835646867752075,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_063059.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.2669698894023895,
+        "fp16_conf": 0.24581153690814972,
+        "delta_fp16_minus_fp32": -0.021158352494239807,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_063138.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.25506868958473206,
+        "fp16_conf": 0.23301546275615692,
+        "delta_fp16_minus_fp32": -0.022053226828575134,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_065644.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.25297096371650696,
+        "fp16_conf": 0.23645710945129395,
+        "delta_fp16_minus_fp32": -0.016513854265213013,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_082920.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.25395697355270386,
+        "fp16_conf": 0.24900086224079132,
+        "delta_fp16_minus_fp32": -0.004956111311912537,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_095632.wav",
+        "species": "Microrhopias quixensis_Dot-winged Antwren",
+        "fp32_conf": 0.25275832414627075,
+        "fp16_conf": 0.24873940646648407,
+        "delta_fp16_minus_fp32": -0.004018917679786682,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_135244.wav",
+        "species": "Cacicus uropygialis_Scarlet-rumped Cacique",
+        "fp32_conf": 0.25035005807876587,
+        "fp16_conf": 0.24879337847232819,
+        "delta_fp16_minus_fp32": -0.001556679606437683,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_155338.wav",
+        "species": "Automolus exsertus_Chiriqui Foliage-gleaner",
+        "fp32_conf": 0.2864236831665039,
+        "fp16_conf": 0.22664302587509155,
+        "delta_fp16_minus_fp32": -0.059780657291412354,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_160744.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.280021995306015,
+        "fp16_conf": 0.22584713995456696,
+        "delta_fp16_minus_fp32": -0.05417485535144806,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_164519.wav",
+        "species": "Habia rubica_Red-crowned Ant-Tanager",
+        "fp32_conf": 0.25272446870803833,
+        "fp16_conf": 0.24916671216487885,
+        "delta_fp16_minus_fp32": -0.003557756543159485,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_173916.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2570115029811859,
+        "fp16_conf": 0.23453238606452942,
+        "delta_fp16_minus_fp32": -0.022479116916656494,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_191050.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25018754601478577,
+        "fp16_conf": 0.2497645765542984,
+        "delta_fp16_minus_fp32": -0.0004229694604873657,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_200138.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2503397762775421,
+        "fp16_conf": 0.24841000139713287,
+        "delta_fp16_minus_fp32": -0.0019297748804092407,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_200356.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.2520653307437897,
+        "fp16_conf": 0.24862781167030334,
+        "delta_fp16_minus_fp32": -0.003437519073486328,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_200520.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25901925563812256,
+        "fp16_conf": 0.2421731948852539,
+        "delta_fp16_minus_fp32": -0.016846060752868652,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_200635.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25517332553863525,
+        "fp16_conf": 0.24469631910324097,
+        "delta_fp16_minus_fp32": -0.010477006435394287,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_204141.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2624738812446594,
+        "fp16_conf": 0.24904906749725342,
+        "delta_fp16_minus_fp32": -0.013424813747406006,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_204747.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24147428572177887,
+        "fp16_conf": 0.25009623169898987,
+        "delta_fp16_minus_fp32": 0.008621945977210999,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_210947.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24796193838119507,
+        "fp16_conf": 0.2518608570098877,
+        "delta_fp16_minus_fp32": 0.003898918628692627,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_212620.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24568507075309753,
+        "fp16_conf": 0.2505674958229065,
+        "delta_fp16_minus_fp32": 0.00488242506980896,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_234044.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25075939297676086,
+        "fp16_conf": 0.24952906370162964,
+        "delta_fp16_minus_fp32": -0.0012303292751312256,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_234120.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24892257153987885,
+        "fp16_conf": 0.2502651810646057,
+        "delta_fp16_minus_fp32": 0.0013426095247268677,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_234738.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.2517189383506775,
+        "fp16_conf": 0.24809998273849487,
+        "delta_fp16_minus_fp32": -0.003618955612182617,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250319_234750.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.25055626034736633,
+        "fp16_conf": 0.24147970974445343,
+        "delta_fp16_minus_fp32": -0.009076550602912903,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_001626.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25681886076927185,
+        "fp16_conf": 0.24698004126548767,
+        "delta_fp16_minus_fp32": -0.00983881950378418,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_003223.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.25873297452926636,
+        "fp16_conf": 0.24616459012031555,
+        "delta_fp16_minus_fp32": -0.012568384408950806,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_003814.wav",
+        "species": "Lophostrix cristata_Crested Owl",
+        "fp32_conf": 0.24898719787597656,
+        "fp16_conf": 0.2540059983730316,
+        "delta_fp16_minus_fp32": 0.005018800497055054,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_012720.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2576029896736145,
+        "fp16_conf": 0.24287961423397064,
+        "delta_fp16_minus_fp32": -0.01472337543964386,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_014302.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25157102942466736,
+        "fp16_conf": 0.2425547093153,
+        "delta_fp16_minus_fp32": -0.00901632010936737,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_014302.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25049829483032227,
+        "fp16_conf": 0.2485070824623108,
+        "delta_fp16_minus_fp32": -0.0019912123680114746,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_014556.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.24899797141551971,
+        "fp16_conf": 0.2507424056529999,
+        "delta_fp16_minus_fp32": 0.0017444342374801636,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_015932.wav",
+        "species": "Seiurus aurocapilla_Ovenbird",
+        "fp32_conf": 0.26544636487960815,
+        "fp16_conf": 0.24863386154174805,
+        "delta_fp16_minus_fp32": -0.016812503337860107,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_020702.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.24659225344657898,
+        "fp16_conf": 0.26008087396621704,
+        "delta_fp16_minus_fp32": 0.013488620519638062,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_024811.wav",
+        "species": "Ciccaba virgata_Mottled Owl",
+        "fp32_conf": 0.25143808126449585,
+        "fp16_conf": 0.2496827095746994,
+        "delta_fp16_minus_fp32": -0.0017553716897964478,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_025823.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.24237260222434998,
+        "fp16_conf": 0.2596227526664734,
+        "delta_fp16_minus_fp32": 0.017250150442123413,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_025823.wav",
+        "species": "Pulsatrix perspicillata_Spectacled Owl",
+        "fp32_conf": 0.23486490547657013,
+        "fp16_conf": 0.25148308277130127,
+        "delta_fp16_minus_fp32": 0.01661817729473114,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_032138.wav",
+        "species": "Ciccaba nigrolineata_Black-and-white Owl",
+        "fp32_conf": 0.25156357884407043,
+        "fp16_conf": 0.24679681658744812,
+        "delta_fp16_minus_fp32": -0.0047667622566223145,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052026.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.2668818235397339,
+        "fp16_conf": 0.22309386730194092,
+        "delta_fp16_minus_fp32": -0.04378795623779297,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052123.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2794645130634308,
+        "fp16_conf": 0.2079763561487198,
+        "delta_fp16_minus_fp32": -0.071488156914711,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052232.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2554400563240051,
+        "fp16_conf": 0.21564030647277832,
+        "delta_fp16_minus_fp32": -0.03979974985122681,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052238.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2686130702495575,
+        "fp16_conf": 0.18754632771015167,
+        "delta_fp16_minus_fp32": -0.08106674253940582,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052320.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.25599318742752075,
+        "fp16_conf": 0.17592182755470276,
+        "delta_fp16_minus_fp32": -0.080071359872818,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052341.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.3332102596759796,
+        "fp16_conf": 0.20192450284957886,
+        "delta_fp16_minus_fp32": -0.13128575682640076,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052341.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.26374390721321106,
+        "fp16_conf": 0.2268764227628708,
+        "delta_fp16_minus_fp32": -0.03686748445034027,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052426.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2949521839618683,
+        "fp16_conf": 0.1584068238735199,
+        "delta_fp16_minus_fp32": -0.1365453600883484,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052644.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.25250470638275146,
+        "fp16_conf": 0.23930612206459045,
+        "delta_fp16_minus_fp32": -0.01319858431816101,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052647.wav",
+        "species": "Ceratopipra mentalis_Red-capped Manakin",
+        "fp32_conf": 0.26482003927230835,
+        "fp16_conf": 0.24659298360347748,
+        "delta_fp16_minus_fp32": -0.01822705566883087,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052653.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.24677596986293793,
+        "fp16_conf": 0.25066184997558594,
+        "delta_fp16_minus_fp32": 0.0038858801126480103,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052805.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2501072287559509,
+        "fp16_conf": 0.23569464683532715,
+        "delta_fp16_minus_fp32": -0.01441258192062378,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052838.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.25345271825790405,
+        "fp16_conf": 0.24560841917991638,
+        "delta_fp16_minus_fp32": -0.007844299077987671,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_052841.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.34736156463623047,
+        "fp16_conf": 0.24744145572185516,
+        "delta_fp16_minus_fp32": -0.0999201089143753,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053023.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2652287483215332,
+        "fp16_conf": 0.22134123742580414,
+        "delta_fp16_minus_fp32": -0.043887510895729065,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053041.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.25119954347610474,
+        "fp16_conf": 0.24597744643688202,
+        "delta_fp16_minus_fp32": -0.005222097039222717,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053202.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.27499473094940186,
+        "fp16_conf": 0.2392875999212265,
+        "delta_fp16_minus_fp32": -0.035707131028175354,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053514.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.26789534091949463,
+        "fp16_conf": 0.24159206449985504,
+        "delta_fp16_minus_fp32": -0.026303276419639587,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053741.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.24501626193523407,
+        "fp16_conf": 0.25146886706352234,
+        "delta_fp16_minus_fp32": 0.006452605128288269,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053808.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.2572046220302582,
+        "fp16_conf": 0.2468121498823166,
+        "delta_fp16_minus_fp32": -0.01039247214794159,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_053935.wav",
+        "species": "Myiothlypis fulvicauda_Buff-rumped Warbler",
+        "fp32_conf": 0.2682064175605774,
+        "fp16_conf": 0.23813247680664062,
+        "delta_fp16_minus_fp32": -0.030073940753936768,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_054220.wav",
+        "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager",
+        "fp32_conf": 0.27241232991218567,
+        "fp16_conf": 0.23413804173469543,
+        "delta_fp16_minus_fp32": -0.038274288177490234,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_054617.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2621855139732361,
+        "fp16_conf": 0.24599699676036835,
+        "delta_fp16_minus_fp32": -0.016188517212867737,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_054829.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.26469138264656067,
+        "fp16_conf": 0.24268025159835815,
+        "delta_fp16_minus_fp32": -0.022011131048202515,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_060459.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.27162864804267883,
+        "fp16_conf": 0.22653990983963013,
+        "delta_fp16_minus_fp32": -0.045088738203048706,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_061032.wav",
+        "species": "Formicarius analis_Black-faced Antthrush",
+        "fp32_conf": 0.2521335780620575,
+        "fp16_conf": 0.23186831176280975,
+        "delta_fp16_minus_fp32": -0.02026526629924774,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_061505.wav",
+        "species": "Cantorchilus semibadius_Riverside Wren",
+        "fp32_conf": 0.2833406329154968,
+        "fp16_conf": 0.24760538339614868,
+        "delta_fp16_minus_fp32": -0.035735249519348145,
+        "in_fp32_set": true,
+        "in_fp16_set": false
+      },
+      {
+        "clip": "Audio_Moth_5_20250320_062008.wav",
+        "species": "Myiornis atricapillus_Black-capped Pygmy-Tyrant",
+        "fp32_conf": 0.2432442605495453,
+        "fp16_conf": 0.25744420289993286,
+        "delta_fp16_minus_fp32": 0.014199942350387573,
+        "in_fp32_set": false,
+        "in_fp16_set": true
+      }
+    ],
+    "max_abs_conf_deviation": 0.19042763113975525,
+    "max_abs_conf_deviation_at": {
+      "clip": "Audio_Moth_5_20250320_052102.wav",
+      "species": "Habia atrimaxillaris_Black-cheeked Ant-Tanager"
+    },
+    "closest_to_threshold": 8.940696716308594e-08,
+    "closest_to_threshold_at": {
+      "clip": "Audio_Moth_1_20250319_024851.wav",
+      "species": "Ciccaba virgata_Mottled Owl",
+      "model": "fp16",
+      "conf": 0.24999991059303284
+    }
+  },
+  "total_seconds": 750.178620099905
+}

@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE / Editor
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Data and outputs (keep folders via .gitkeep)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Audio and archives -- never ours to publish
+*.wav
+*.zip
+*.crdownload
+
+# Editor project settings
+.vscode/
+
+# Bridge local config -- contains machine-specific absolute paths.
+# No leading slash: must match at any depth (src/bridge/models.json), not
+# just <root>/models.json. models.json.example is unaffected and stays tracked.
+models.json
